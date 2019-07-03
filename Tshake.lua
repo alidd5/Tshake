@@ -967,9 +967,9 @@ end
 if text:match("^تحديث السورس$")  then
 send(msg.chat_id_, msg.id_, 1, '☑┇تم التحديث', 1, 'md')
 os.execute('rm -rf ./libs/utils.lua')
-os.execute('cd libs && wget ')
+os.execute('cd libs && wget https://raw.githubusercontent.com/alidd5/Tshake/master/libs/utils.lua')
 os.execute('rm -rf Tshake.lua')
-os.execute('wget ')
+os.execute('wget https://raw.githubusercontent.com/alidd5/Tshake/master/Tshake.lua')
 dofile('Tshake.lua')  
 os.exit()
 return false
@@ -2254,12 +2254,12 @@ if text == 'تحديث' then
 dofile('Tshake.lua')  
 send(msg.chat_id_, msg.id_, 1, '☑┇تم التحديث', 1, 'md')
 end
-if text:match("^تحديث السورس$") and tonumber(msg.sender_user_id_) == tonumber(sudo_add) then
+if text:match("^تحديث السورس$")  then
 send(msg.chat_id_, msg.id_, 1, '☑┇تم التحديث', 1, 'md')
 os.execute('rm -rf ./libs/utils.lua')
-os.execute('cd libs && wget ')
+os.execute('cd libs && wget https://raw.githubusercontent.com/alidd5/Tshake/master/libs/utils.lua')
 os.execute('rm -rf Tshake.lua')
-os.execute('wget ')
+os.execute('wget https://raw.githubusercontent.com/alidd5/Tshake/master/Tshake.lua')
 dofile('Tshake.lua')  
 os.exit()
 return false
