@@ -7180,14 +7180,14 @@ send(msg.chat_id_, msg.id_, 1, (h4 or text), 1, 'html')
 end
 if text:match("^اصدار$") or text:match("^الاصدار$") or text:match("^السورس$") or text:match("^سورس$") then
 local text =  [[
-👋┇اهلا بك في سورس تشاكي 
-🌐┇TshAkE TEAM
-🦁┇[قناه السورس](t.me/ZX_XX)
-📜┇[قناه شروحات سورس](http://t.me/TSHAKETEAM)
-📥┇[قناه ملفات السورس](t.me/TSHAKETEAM)
-🔎┇[طريقه التنصيب](https://t.me/ZX_XX/648)
-📮┇[لـ تواصل](t.me/A_5bot)
-]]
+🔱┇ Welcome to Source LeaDerS ┇🔱
+
+🔱┇[Channel Of LeaDerS ](t.me/leaders_team) ┇🔱
+🔱┇[EXALTED](http://t.me/NEEEN) ┇🔱
+🔱┇[Files Of Source](t.me/leadersfiles) ┇🔱
+
+📮┇ [To communicat] t.me/Leaderssbot)  ┇📮 
+     ]]
 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
 if text:match("^اريد رابط حذف$") or text:match("^رابط حذف$") or text:match("^رابط الحذف$") or text:match("^الرابط حذف$") or text:match("^اريد رابط الحذف$") then
